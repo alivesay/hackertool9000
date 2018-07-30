@@ -1,0 +1,11 @@
+aws:
+    region: us-west-2
+
+servers::exclude: 
+    - example
+
+servers:
+    web:
+        notes: I'm web notes!
+    somethingelse:
+        notes: I'm an important message!
